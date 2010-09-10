@@ -1,0 +1,253 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+@font-face {
+font-family: "titillium";
+src: url("http://static.indrode.com/meatspace/fonts/Titillium.otf");
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	color: #000;
+	background-color:#fff;
+	border-top:8px solid #000;
+	overflow-y: scroll;		/* force scrollbars */
+	_overflow:visible;		/* IE hack */
+}
+
+.gfx {
+	margin:-30px 0 0 -30px;
+	padding:0;
+}
+
+.alignleft {
+	float:left;
+	margin-right:10px;
+}
+
+.alignright {
+	float:right;
+	margin-left:10px;
+}
+
+.meatspace {
+	font-family:"titillium",Helvetica, Arial, sans-serif;
+}
+
+.zpc {
+	font-variant: small-caps;
+}
+
+.container {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a {
+	color:#505050;
+	font-weight:bold;
+}
+
+a.clean {
+	color:#000;
+	text-decoration:none;
+	font-weight:normal;
+}
+
+li a {
+	color:#000;
+}
+
+#content {
+	background-color:#C6C8C6;
+	padding:20px 0 40px 0;
+}
+
+#navigation {
+	clear:both;
+	background-color:#fff;
+	padding:10px;
+	margin:0 auto;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:13px;
+	border-bottom:1px solid #999;
+}
+
+.menubar a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.menubar a:hover {
+  color: #004491;
+}
+
+#contact, #about {
+	background-image:url(http://static.indrode.com/meatspace/images/gradient.png);
+	background-repeat:repeat-x;
+	padding:30px 0 10px 0;
+	display:none;
+	background-color:#bbb;
+	border-bottom:1px solid #888;
+	box-shadow:-2px 2px 2px #999; 
+	-webkit-box-shadow:-2px 2px 2px #999; 
+	-moz-box-shadow:-2px 2px 2px #999;	
+}
+
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+li {
+	font-family: Helvetica, serif;
+	font-size:0.8em;
+  margin-bottom: 1.1em;
+	line-height: 1.5em;
+}
+
+
+#footer {
+	clear:both;
+	border-top:1px solid #a0a0a0;
+	background-image:url(http://static.indrode.com/meatspace/images/gradient.png);
+	background-repeat:repeat-x;
+	background-color:#fff;
+	padding:25px 0;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:11px;
+	text-align:center;
+}
+
+#footer a {
+	color:#000;
+}
+
+/* headers */
+
+h1 {
+	font-family:"titillium",Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+	margin-top:40px;
+	margin-bottom: 20px;
+	text-shadow: 0px 1px 0px #fff;
+}
+
+h2 {
+	clear:both;
+	font-family:"titillium",Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+	margin-top:30px;
+	margin-bottom: 10px;
+	text-shadow: 0px 1px 0px #fff;
+}
+
+code {
+  font-size: 0.9em;
+  background: #f0f0f0;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  border: 1px solid #e0e0e0;
+  -moz-border-radius: 0.2em;
+  -webkit-border-radius: 0.2em;
+}
+
+.highlight {
+  xbackground: yellow;
+  margin-top: -0.3em;
+}
+
+.osx-shortcut {
+	background: #f0f0f0;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  border: 1px solid #e0e0e0;
+  -moz-border-radius: 0.2em;
+  -webkit-border-radius: 0.2em;	
+}
+
+.meta {
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #999;
+  border-top: 1px solid #ddd;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  margin-top: -0.6em;
+}
+
+.meta a, .content a, .related a {
+  color: #004491;
+  text-decoration: none;
+  border-bottom: 1px dotted #d3dfee;
+}
+
+.meta a {
+  font-weight: normal;
+  
+}
+
+.meta a:hover, .content a:hover, .related a:hover {
+  border-bottom: 1px solid #d3dfee;
+}
+
+#main p {
+	font-family: Helvetica, sans-serif;
+  margin: 0 0 20px 0;
+	line-height: 26px;
+	text-shadow: 0px 1px 0px #fff;
+}
+
+#about p, #contact p {
+	font-family: Helvetica, sans-serif;
+	font-size:14px;
+  margin-bottom: 22px;
+	line-height: 22px;
+}
+
+#main p.subtitle {
+	line-height:1em;
+	margin:0;
+	font-size:11px;
+}
+
+.smaller {
+	font-size:12px;
+	font-weight:normal;
+}
+
+.clearer {
+	clear:both;
+}
+
+.img_left {
+	float:left; border:1px solid #000; margin-right:30px; margin-bottom:1.3em; padding:5px;
+}
+
+/* code/language-specific styles */
+
+pre {
+  font: 0.7em Monaco, monospace;
+  line-height: 1.4em;
+  display: block;
+  color: white;
+  background: #222;
+	border-radius:10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  padding: 10px;
+}
+
+.ruby, .sql, .bash {
+	font: 14px Monaco, monospace;
+	background-color:#222;
+	border:none;
+}
