@@ -2,3 +2,4 @@ safe: true
 destination: _site
 lsi: false
 pygments: true
+permalink: /content/:year/:title.html

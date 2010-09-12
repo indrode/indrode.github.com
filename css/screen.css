@@ -19,6 +19,10 @@ body {
 	_overflow:visible;		/* IE hack */
 }
 
+.spacer {
+	padding-right:75px;
+}
+
 .gfx {
 	margin:-30px 0 0 -30px;
 	padding:0;
@@ -27,6 +31,7 @@ body {
 .alignleft {
 	float:left;
 	margin-right:10px;
+	margin-bottom:20px;
 }
 
 .alignright {
@@ -209,6 +214,15 @@ code {
 	text-shadow: 0px 1px 0px #fff;
 }
 
+#entries {
+	clear:both;
+}
+
+#entries p {
+	font-size:15px;
+	text-shadow:none;
+}
+
 #about p, #contact p {
 	font-family: Helvetica, sans-serif;
 	font-size:14px;
@@ -253,4 +267,74 @@ pre {
 	font: 14px Monaco, monospace;
 	background-color:#222;
 	border:none;
+}
+
+
+/* buttons */
+
+.awesome {
+	background: #222 url(http://static.indrode.com/meatspace/images/overlay-button.png) repeat-x;
+	display: inline-block;
+	padding: 5px 10px 6px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 1;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0 1px 3px #999;
+	-webkit-box-shadow: 0 1px 3px #999;
+	text-shadow: 0 -1px 1px #222;
+	border-bottom: 1px solid #222;
+	position: relative;
+	cursor: pointer;
+}
+
+.awesome.button {
+	font-family: Arial, Helvetica, "Helvetica Neue", Verdana, sans-serif;
+	font-size: 13px;
+	font-weight:normal;
+	background-image: url(http://static.indrode.com/meatspace/images/36px-blended.png);
+	padding: 4px 14px 6px; border: 1px solid rgba(0,0,0,.25);
+	border-bottom-color: rgba(0,0,0,.35);
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px; 
+}
+
+.large.awesome.button { 
+	background-position: 0 0; 
+	padding: 6px 17px 8px; 
+	-webkit-border-radius: 18px; 
+	-moz-border-radius: 18px; 
+}
+
+
+ /* sizes */
+.small.awesome {
+	font-size: 11px;
+}
+.medium.awesome {
+	font-size: 13px;
+}
+.large.awesome {
+	font-size: 14px;
+	padding: 8px 14px 9px;
+}
+ 
+/* colors */
+
+.blue.awesome {
+	background-color: #2daebf;
+}
+.red.awesome {
+	background-color: #e33100;
+}
+.magenta.awesome {
+	background-color: #a9014b;
+}
+.orange.awesome {
+	background-color: #ff5c00;
+}
+.yellow.awesome {
+	background-color: #ffb515;
 }
