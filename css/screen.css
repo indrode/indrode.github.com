@@ -171,7 +171,7 @@ li {
 h1 {
 	font-family:"titillium",Helvetica, Arial, sans-serif;
   font-size: 22px;
-  font-weight: bold;
+  font-weight: normal;
 	margin-top:40px;
 	margin-bottom: 20px;
 	text-shadow: 0px 1px 0px #fff;
@@ -181,7 +181,7 @@ h2, h3 {
 	clear:both;
 	font-family:"titillium",Helvetica, Arial, sans-serif;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: normal;
 	margin-top:30px;
 	margin-bottom: 10px;
 	text-shadow: 0px 1px 0px #fff;
