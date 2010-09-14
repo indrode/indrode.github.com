@@ -6,7 +6,7 @@ summary: ""
 
 ## A short Markdown, Liquid, Pygments, and Jekyll reference
 
-This is a sample Bandito page highlighting some Markdown techniques, primarily regarding syntax highlighting in my Jekyll-built Markdown/Pygments environment. To add some value to this reference, this document is [available in raw text]({{ http://indrode.github.com/reference.txt }}), which will make it easy to find out how certain Markdown syntax is used to get the desired output. As a more thorough reference, check out John Gruber's official [Markdown Syntax Documentation]({{http://daringfireball.net/projects/markdown/syntax}}).
+This is a sample Bandito page highlighting some Markdown techniques, primarily regarding syntax highlighting in my Jekyll-built Markdown/Pygments environment. To add some value to this reference, this document is [available in raw text](http://github.com/indrode/indrode.github.com/raw/master/_posts/2010-09-10-markdown-jekyll.markdown), which will make it easier to figure out how certain Markdown syntax is used to get the desired output. As a more thorough reference, check out John Gruber's official [Markdown Syntax Documentation](http://daringfireball.net/projects/markdown/syntax).
 
 ### Displaying code excerpts
 
