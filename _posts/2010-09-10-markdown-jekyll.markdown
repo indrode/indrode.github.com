@@ -10,7 +10,7 @@ This is a sample Bandito page highlighting some Markdown techniques, primarily r
 
 ### Displaying code excerpts
 
-Of course there are the very basics, like the pound signs `#` which stand for HTML heading tags, e.g. `### Displaying code excerpts` will display this paragraph's heading. Two asterisks will **make things bold** for you. Just one asterisks *makes it look like this*. Now to the good stuff. To add language-specific syntax highlighting like the one below, check the raw text file of this document.
+Of course there are the very basics, like the pound signs `#` which stand for HTML heading tags, e.g. `### Displaying code excerpts` will display this paragraph's heading (h3). Two asterisks will **make things bold** for you. Just one asterisks *makes it look like this*. Now to the good stuff. To add language-specific syntax highlighting like the one below, check the raw text file of this document.
 
 {% highlight ruby %}
 def destroy
@@ -23,7 +23,7 @@ end
 
 What you've just seen was some syntax-highlighted Ruby code. For this particular Jekyll implementation, I have added language styles for `ruby`, `css`, `bash` and `sql`.
 
-### GitHub Pages / Jekyll workflow
+### GitHub Pages and Jekyll workflow
 
 As you can read on `http://pages.github.com/`, the GitHub Pages feature allows you to publish content to the web by simply pushing content to one of your GitHub hosted repositories.
 

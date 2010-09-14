@@ -80,8 +80,10 @@ li a {
 
 #content {
 	background-color:#C6C8C6;
-	padding:0 0 40px 0;
-	/* add flowery centered bottom-aligned background image */
+	padding:0 0 150px 0;
+	background-image:url(http://static.indrode.com/meatspace/images/bottom_gfx.png);
+	background-repeat:no-repeat;
+	background-position:bottom center;
 }
 
 #navigation {
@@ -117,8 +119,6 @@ li a {
 	-webkit-box-shadow:-2px 2px 2px #999; 
 	-moz-box-shadow:-2px 2px 2px #999;	
 }
-
-
 
 ul {
 	list-style-type:none;
@@ -180,7 +180,7 @@ h1 {
 h2, h3 {
 	clear:both;
 	font-family:"titillium",Helvetica, Arial, sans-serif;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: normal;
 	margin-top:30px;
 	margin-bottom: 10px;
@@ -188,7 +188,7 @@ h2, h3 {
 }
 
 h3 {
-	font-size:18px;
+	font-size:20px;
 }
 
 code {
