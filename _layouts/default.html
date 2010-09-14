@@ -8,8 +8,8 @@
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 	<script type="text/javascript" src="javascripts/meatspace.js"></script>
-  	<link rel="stylesheet" href="css/screen.css" type="text/css" media="screen, projection" />
-   	<link rel="stylesheet" href="css/syntax.css" type="text/css" />
+  	<link rel="stylesheet" href="../css/screen.css" type="text/css" media="screen, projection" />
+   	<link rel="stylesheet" href="../css/syntax.css" type="text/css" />
 </head>
 
 <body>
@@ -32,13 +32,20 @@
 			</div>
 		</div>		
 		<div class="container">
-    	<div id="main">
-			{% include intro.html %}
+    		<div id="main">
+				{% include intro.html %}
+    		</div>
+		</div>
+		<div id="archive">
+			<div class="container">
+				<p>&ldquo;Logic will get you from A to B. Imagination will take you everywhere.&rdquo; —Albert Einstein</p>
+			</div>
+		</div>
+		<div class="container">
 			<div id="entries">
 				{{ content }}
 			</div>
-    	</div>
-		</div>
+		</div> 	
 	</div>
 	
 	<div id="footer">

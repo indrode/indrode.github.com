@@ -4,8 +4,8 @@
 }
 
 @font-face {
-font-family: "titillium";
-src: url("../fonts/titillium.otf");
+	font-family: "titillium";
+	src: url("../fonts/titillium.otf");
 }
 
 body {
@@ -17,6 +17,14 @@ body {
 	border-top:8px solid #000;
 	overflow-y: scroll;		/* force scrollbars */
 	_overflow:visible;		/* IE hack */
+}
+
+.cleared {
+	clear:both;
+}
+
+hr {
+	margin-bottom:40px;
 }
 
 .spacer {
@@ -55,7 +63,9 @@ body {
 
 a {
 	color:#505050;
+	color:#303030;
 	font-weight:bold;
+	text-shadow: none;
 }
 
 a.clean {
@@ -71,6 +81,7 @@ li a {
 #content {
 	background-color:#C6C8C6;
 	padding:0 0 40px 0;
+	/* add flowery centered bottom-aligned background image */
 }
 
 #navigation {
@@ -107,6 +118,8 @@ li a {
 	-moz-box-shadow:-2px 2px 2px #999;	
 }
 
+
+
 ul {
 	list-style-type:none;
 	margin:0;
@@ -120,6 +133,22 @@ li {
 	line-height: 1.5em;
 }
 
+#archive {
+	clear:both;
+	background-image:url(http://destiny.zenpunch.com/wp-content/themes/inspire/images/bg-breadcrumb.png);
+	background-color:#fff;	
+	border-top:1px solid #a0a0a0;
+	border-bottom:1px solid #a0a0a0;
+	height:50px;
+}
+
+#archive p {
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:15px;
+	font-style:italic;
+	text-align:center;
+	padding:18px 0 0 0;
+}
 
 #footer {
 	clear:both;
@@ -142,45 +171,35 @@ li {
 h1 {
 	font-family:"titillium",Helvetica, Arial, sans-serif;
   font-size: 22px;
-  font-weight: normal;
+  font-weight: bold;
 	margin-top:40px;
 	margin-bottom: 20px;
 	text-shadow: 0px 1px 0px #fff;
 }
 
-h2 {
+h2, h3 {
 	clear:both;
 	font-family:"titillium",Helvetica, Arial, sans-serif;
   font-size: 20px;
-  font-weight: normal;
+  font-weight: bold;
 	margin-top:30px;
 	margin-bottom: 10px;
 	text-shadow: 0px 1px 0px #fff;
 }
 
+h3 {
+	font-size:18px;
+}
+
 code {
-  font-size: 0.9em;
-  background: #f0f0f0;
-  padding-left: 0.2em;
-  padding-right: 0.2em;
+  font-size: 14px;
+  background-color: #f0f0f0;
   border: 1px solid #e0e0e0;
   -moz-border-radius: 0.2em;
   -webkit-border-radius: 0.2em;
 }
 
-.highlight {
-  xbackground: yellow;
-  margin-top: -0.3em;
-}
-
-.osx-shortcut {
-	background: #f0f0f0;
-  padding-left: 0.2em;
-  padding-right: 0.2em;
-  border: 1px solid #e0e0e0;
-  -moz-border-radius: 0.2em;
-  -webkit-border-radius: 0.2em;	
-}
+code:first-line { text-indent: -10px; }
 
 .meta {
   font-size: 0.9em;
@@ -216,11 +235,16 @@ code {
 
 #entries {
 	clear:both;
+	display:none;
+	padding-top:20px;
 }
 
 #entries p {
+	font-family: Helvetica, sans-serif;
 	font-size:15px;
+	line-height:22px;
 	text-shadow:none;
+	margin: 0 0 20px 0;
 }
 
 #about p, #contact p {
@@ -236,6 +260,15 @@ code {
 	font-size:11px;
 }
 
+small {
+	font-size:14px;
+	font-weight:normal;
+}
+
+small a {
+	font-weight:normal;
+}
+
 .smaller {
 	font-size:12px;
 	font-weight:normal;
@@ -245,25 +278,22 @@ code {
 	clear:both;
 }
 
-.img_left {
-	float:left; border:1px solid #000; margin-right:30px; margin-bottom:1.3em; padding:5px;
-}
-
 /* code/language-specific styles */
 
 pre {
-  font: 0.7em Monaco, monospace;
+  font: 14px Monaco, monospace;
   line-height: 1.4em;
   display: block;
-  color: white;
+  color: #fff;
   background: #222;
 	border-radius:10px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   padding: 10px;
+  margin: -5px 0 15px 0;
 }
 
-.ruby, .sql, .bash {
+.ruby, .sql, .bash, .css, .erb {
 	font: 14px Monaco, monospace;
 	background-color:#222;
 	border:none;
@@ -288,6 +318,10 @@ pre {
 	border-bottom: 1px solid #222;
 	position: relative;
 	cursor: pointer;
+}
+
+a.awesome:hover {
+	background-color: #444;
 }
 
 .awesome.button {

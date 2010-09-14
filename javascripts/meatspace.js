@@ -23,5 +23,14 @@ $(document).ready(function() {
 		this.blur();
 		return false;
 	});
+	
+	$('#showarticle').toggle(function() {
+	  $("#entries").show();
+		$('html,body').animate({scrollTop: $('#entries').offset().top},'slow');
+		this.blur();
+	}, function() {
+	  $("#entries").hide();
+		this.blur();
+	});
 
 });
