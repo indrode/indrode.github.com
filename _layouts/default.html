@@ -30,17 +30,21 @@
 			<div class="container">
 			{% include contact.html %}
 			</div>
-		</div>		
-		<div class="container">
-    		<div id="main">
-				{% include intro.html %}
-    		</div>
 		</div>
-		<div id="archive">
+		
+		<div id="intro">	
 			<div class="container">
-				<p>&ldquo;Logic will get you from A to B. Imagination will take you everywhere.&rdquo; —Albert Einstein</p>
+    			<div id="main">
+					{% include intro.html %}
+    			</div>
 			</div>
+			<div id="archive">
+				<div class="container">
+					<p>&ldquo;Logic will get you from A to B. Imagination will take you everywhere.&rdquo; —Albert Einstein</p>
+				</div>
+			</div>		
 		</div>
+		
 		<div class="container">
 			<div id="entries">
 				{{ content }}

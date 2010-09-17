@@ -25,8 +25,9 @@ $(document).ready(function() {
 	});
 	
 	$('#showarticle').toggle(function() {
+		$("#intro").slideUp();
 	  $("#entries").show();
-		$('html,body').animate({scrollTop: $('#entries').offset().top},'slow');
+		//$('html,body').animate({scrollTop: $('#entries').offset().top},'slow');
 		this.blur();
 	}, function() {
 	  $("#entries").hide();
