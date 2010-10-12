@@ -3,11 +3,6 @@
 	padding:0;
 }
 
-@font-face {
-	font-family: "titillium";
-	src: url("../fonts/titillium.otf");
-}
-
 body {
 	margin: 0;
 	padding: 0;
@@ -48,7 +43,7 @@ hr {
 }
 
 .meatspace {
-	font-family:"titillium",Helvetica, Arial, sans-serif;
+	xfont-family:"titillium",Helvetica, Arial, sans-serif;
 }
 
 .zpc {
@@ -169,7 +164,7 @@ li {
 /* headers */
 
 h1 {
-	font-family:"titillium",Helvetica, Arial, sans-serif;
+	xfont-family:"titillium",Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: normal;
 	margin-top:40px;
@@ -179,7 +174,7 @@ h1 {
 
 h2, h3 {
 	clear:both;
-	font-family:"titillium",Helvetica, Arial, sans-serif;
+	xfont-family:"titillium",Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: normal;
 	margin-top:30px;
