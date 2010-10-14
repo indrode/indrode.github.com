@@ -164,7 +164,7 @@ li {
 /* headers */
 
 h1 {
-	xfont-family:"titillium",Helvetica, Arial, sans-serif;
+	font-family:Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: normal;
 	margin-top:40px;
@@ -174,7 +174,7 @@ h1 {
 
 h2, h3 {
 	clear:both;
-	xfont-family:"titillium",Helvetica, Arial, sans-serif;
+	font-family:Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: normal;
 	margin-top:30px;
@@ -183,6 +183,7 @@ h2, h3 {
 }
 
 h3 {
+	font-family:Helvetica, Arial, sans-serif;
 	font-size:20px;
 }
 
