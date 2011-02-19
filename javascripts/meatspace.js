@@ -10,7 +10,7 @@ $(document).ready(function() {
 		return false;
 	});
 	
-	$('#navigation a.toggle').click(function(event) {
+	$('a.toggle').click(function(event) {
 		event.preventDefault();
 		link = $(this).attr("href");		
 		$(".togglearea").slideUp();
@@ -33,5 +33,23 @@ $(document).ready(function() {
 	  $("#entries").hide();
 		this.blur();
 	});
+	
+	$('a.toggle_tag').click(function(event) {
+		event.preventDefault();
+		var tag = $(this).attr("id");
+		//todo: change bg-color of selected tag
+		//$(".....").css({'background-color' : '#fff'});
+		//console.log(tag);
+		$(".taglist").hide();
+		$("div#"+tag).show();
+	});
 
+	//slider
+	$('#slider, #loopedslider').loopedSlider({
+		//addPagination: true,
+		autoStart: 6000,
+		slidespeed: 600,
+		containerClick: false,
+		container: ".slides_container"
+	});
 });

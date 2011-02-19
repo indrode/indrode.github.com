@@ -5,10 +5,11 @@
    	<title>MeatSpace &middot; {{ page.title }}</title>
 	<meta name="author" content="Indro De" />
 	<meta name="google-site-verification" content="_GL-oRd_4wDe4vf1Q_kBf7ofo29wjAxviMKs7ufKRYg" />
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script type="text/javascript" src="javascripts/jquery-1.4.3.min.js"></script>
+	<script type="text/javascript" src="javascripts/loopedslider.js"></script>
 	<script type="text/javascript" src="javascripts/meatspace.js"></script>
-  	<link rel="stylesheet" href="../css/screen.css" type="text/css" media="screen, projection" />
-   	<link rel="stylesheet" href="../css/syntax.css" type="text/css" />
+  <link rel="stylesheet" href="../css/screen.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="../css/syntax.css" type="text/css" />
 </head>
 
 <body>
@@ -25,6 +26,11 @@
 			{% include about.html %}
 			</div>
 		</div>
+		<div id="archive" class="togglearea">
+			<div class="container">
+			{% include tags.html %}
+			</div>
+		</div>
 		<div id="contact" class="togglearea">
 			<div class="container">
 			{% include contact.html %}
@@ -37,7 +43,20 @@
 					{% include intro.html %}
     			</div>
 			</div>
-			<div id="archive">
+			<div class="spacer short"></div>
+			<div id="loopedslider">
+				<span style="float:left;">
+					<a href="#" class="previous">&lt;</a>
+				</span>
+				<span style="float:right;">
+					 <a href="#" class="next">&gt;</a>
+				</span>
+			  <div class="slides_container">
+					{% include archive.html %}
+				</div>
+
+			</div>
+			<div id="banner">
 				<div class="container">
 					<p>&ldquo;Logic will get you from A to B. Imagination will take you everywhere.&rdquo; —Albert Einstein</p>
 				</div>
@@ -50,6 +69,20 @@
 			</div>
 		</div> 	
 	</div>
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
 	
 	<div id="footer">
 		<div class="container">

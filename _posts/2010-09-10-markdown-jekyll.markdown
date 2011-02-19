@@ -1,7 +1,15 @@
 ---
 layout: post
 title: "A short Markdown, Liquid, Pygments, and Jekyll reference"
-summary: ""
+summary: "Sample markdown and code highlighting techniques and setting up github pages to use with Jekyll, as well as a sample github/Jekyll deployment workflow."
+categories: 
+- jekyll
+- ruby
+- markdown
+- liquid
+- pygments
+- git
+- bash
 ---
 
 ## A short Markdown, Liquid, Pygments, and Jekyll reference
