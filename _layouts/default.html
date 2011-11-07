@@ -13,6 +13,67 @@
 </head>
 
 <body>
-temporarily disconnected
+{% include noie6.html %}
+
+	<div id="content">
+		<div id="navigation">
+			<div class="container">
+			{% include navigation.html %}
+			</div>
+		</div>
+		<div id="about" class="togglearea">
+			<div class="container">
+			{% include about.html %}
+			</div>
+		</div>
+		<div id="archive" class="togglearea">
+			<div class="container">
+			{% include tags.html %}
+			</div>
+		</div>
+		<div id="contact" class="togglearea">
+			<div class="container">
+			{% include contact.html %}
+			</div>
+		</div>
+		
+		<div id="intro">	
+			<div class="container">
+    			<div id="main">
+					{% include intro.html %}
+    			</div>
+			</div>
+			<div class="spacer short"></div>
+			<div id="loopedslider">
+				<span style="float:left;">
+					<a href="#" class="previous">&lt;</a>
+				</span>
+				<span style="float:right;">
+					 <a href="#" class="next">&gt;</a>
+				</span>
+			  <div class="slides_container">
+					{% include archive.html %}
+				</div>
+
+			</div>
+			<div id="banner">
+				<div class="container">
+					<p>&ldquo;Logic will get you from A to B. Imagination will take you everywhere.&rdquo; —Albert Einstein</p>
+				</div>
+			</div>		
+		</div>
+		
+		<div class="container">
+			<div id="entries">
+				{{ content }}
+			</div>
+		</div> 	
+	</div>
+	
+	<div id="footer">
+		<div class="container">
+	  	{% include footer.html %}
+		</div>
+	</div>
 </body>
 </html>

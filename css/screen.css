@@ -249,6 +249,7 @@ code:first-line { text-indent: -10px; }
 
 #entries {
 	clear:both;
+  display:none;
 	padding-top:20px;
 }
 
