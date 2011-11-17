@@ -2,3 +2,4 @@
 
 A jekyll website. Visit at http://indrode.github.com/
 
+Now discontinued. Check out http://ms.indrode.com/ instead.
